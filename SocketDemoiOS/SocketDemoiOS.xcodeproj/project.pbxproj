@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A530C8AB221432FA002492DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A530C8AA221432FA002492DC /* AppDelegate.m */; };
+		A530C8AE221432FA002492DC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A530C8AD221432FA002492DC /* ViewController.m */; };
+		A530C8B1221432FA002492DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A530C8AF221432FA002492DC /* Main.storyboard */; };
+		A530C8B3221432FB002492DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A530C8B2221432FB002492DC /* Assets.xcassets */; };
+		A530C8B6221432FB002492DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A530C8B4221432FB002492DC /* LaunchScreen.storyboard */; };
+		A530C8B9221432FB002492DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A530C8B8221432FB002492DC /* main.m */; };
+		A530C8C3221432FB002492DC /* SocketDemoiOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A530C8C2221432FB002492DC /* SocketDemoiOSTests.m */; };
+		A530C8CE221432FC002492DC /* SocketDemoiOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A530C8CD221432FC002492DC /* SocketDemoiOSUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A530C8BF221432FB002492DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A530C89E221432FA002492DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A530C8A5221432FA002492DC;
+			remoteInfo = SocketDemoiOS;
+		};
+		A530C8CA221432FC002492DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A530C89E221432FA002492DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A530C8A5221432FA002492DC;
+			remoteInfo = SocketDemoiOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A530C8A6221432FA002492DC /* SocketDemoiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocketDemoiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A530C8A9221432FA002492DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A530C8AA221432FA002492DC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A530C8AC221432FA002492DC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A530C8AD221432FA002492DC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A530C8B0221432FA002492DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A530C8B2221432FB002492DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A530C8B5221432FB002492DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A530C8B7221432FB002492DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A530C8B8221432FB002492DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A530C8BE221432FB002492DC /* SocketDemoiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocketDemoiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A530C8C2221432FB002492DC /* SocketDemoiOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocketDemoiOSTests.m; sourceTree = "<group>"; };
+		A530C8C4221432FB002492DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A530C8C9221432FC002492DC /* SocketDemoiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocketDemoiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A530C8CD221432FC002492DC /* SocketDemoiOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocketDemoiOSUITests.m; sourceTree = "<group>"; };
+		A530C8CF221432FC002492DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A530C8A3221432FA002492DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A530C8BB221432FB002492DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A530C8C6221432FC002492DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A530C89D221432FA002492DC = {
+			isa = PBXGroup;
+			children = (
+				A530C8A8221432FA002492DC /* SocketDemoiOS */,
+				A530C8C1221432FB002492DC /* SocketDemoiOSTests */,
+				A530C8CC221432FC002492DC /* SocketDemoiOSUITests */,
+				A530C8A7221432FA002492DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A530C8A7221432FA002492DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A530C8A6221432FA002492DC /* SocketDemoiOS.app */,
+				A530C8BE221432FB002492DC /* SocketDemoiOSTests.xctest */,
+				A530C8C9221432FC002492DC /* SocketDemoiOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A530C8A8221432FA002492DC /* SocketDemoiOS */ = {
+			isa = PBXGroup;
+			children = (
+				A530C8A9221432FA002492DC /* AppDelegate.h */,
+				A530C8AA221432FA002492DC /* AppDelegate.m */,
+				A530C8AC221432FA002492DC /* ViewController.h */,
+				A530C8AD221432FA002492DC /* ViewController.m */,
+				A530C8AF221432FA002492DC /* Main.storyboard */,
+				A530C8B2221432FB002492DC /* Assets.xcassets */,
+				A530C8B4221432FB002492DC /* LaunchScreen.storyboard */,
+				A530C8B7221432FB002492DC /* Info.plist */,
+				A530C8B8221432FB002492DC /* main.m */,
+			);
+			path = SocketDemoiOS;
+			sourceTree = "<group>";
+		};
+		A530C8C1221432FB002492DC /* SocketDemoiOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				A530C8C2221432FB002492DC /* SocketDemoiOSTests.m */,
+				A530C8C4221432FB002492DC /* Info.plist */,
+			);
+			path = SocketDemoiOSTests;
+			sourceTree = "<group>";
+		};
+		A530C8CC221432FC002492DC /* SocketDemoiOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A530C8CD221432FC002492DC /* SocketDemoiOSUITests.m */,
+				A530C8CF221432FC002492DC /* Info.plist */,
+			);
+			path = SocketDemoiOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A530C8A5221432FA002492DC /* SocketDemoiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A530C8D2221432FC002492DC /* Build configuration list for PBXNativeTarget "SocketDemoiOS" */;
+			buildPhases = (
+				A530C8A2221432FA002492DC /* Sources */,
+				A530C8A3221432FA002492DC /* Frameworks */,
+				A530C8A4221432FA002492DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocketDemoiOS;
+			productName = SocketDemoiOS;
+			productReference = A530C8A6221432FA002492DC /* SocketDemoiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A530C8BD221432FB002492DC /* SocketDemoiOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A530C8D5221432FC002492DC /* Build configuration list for PBXNativeTarget "SocketDemoiOSTests" */;
+			buildPhases = (
+				A530C8BA221432FB002492DC /* Sources */,
+				A530C8BB221432FB002492DC /* Frameworks */,
+				A530C8BC221432FB002492DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A530C8C0221432FB002492DC /* PBXTargetDependency */,
+			);
+			name = SocketDemoiOSTests;
+			productName = SocketDemoiOSTests;
+			productReference = A530C8BE221432FB002492DC /* SocketDemoiOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A530C8C8221432FC002492DC /* SocketDemoiOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A530C8D8221432FC002492DC /* Build configuration list for PBXNativeTarget "SocketDemoiOSUITests" */;
+			buildPhases = (
+				A530C8C5221432FC002492DC /* Sources */,
+				A530C8C6221432FC002492DC /* Frameworks */,
+				A530C8C7221432FC002492DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A530C8CB221432FC002492DC /* PBXTargetDependency */,
+			);
+			name = SocketDemoiOSUITests;
+			productName = SocketDemoiOSUITests;
+			productReference = A530C8C9221432FC002492DC /* SocketDemoiOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A530C89E221432FA002492DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Shuqy;
+				TargetAttributes = {
+					A530C8A5221432FA002492DC = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					A530C8BD221432FB002492DC = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = A530C8A5221432FA002492DC;
+					};
+					A530C8C8221432FC002492DC = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = A530C8A5221432FA002492DC;
+					};
+				};
+			};
+			buildConfigurationList = A530C8A1221432FA002492DC /* Build configuration list for PBXProject "SocketDemoiOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A530C89D221432FA002492DC;
+			productRefGroup = A530C8A7221432FA002492DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A530C8A5221432FA002492DC /* SocketDemoiOS */,
+				A530C8BD221432FB002492DC /* SocketDemoiOSTests */,
+				A530C8C8221432FC002492DC /* SocketDemoiOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A530C8A4221432FA002492DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A530C8B6221432FB002492DC /* LaunchScreen.storyboard in Resources */,
+				A530C8B3221432FB002492DC /* Assets.xcassets in Resources */,
+				A530C8B1221432FA002492DC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A530C8BC221432FB002492DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A530C8C7221432FC002492DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A530C8A2221432FA002492DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A530C8AE221432FA002492DC /* ViewController.m in Sources */,
+				A530C8B9221432FB002492DC /* main.m in Sources */,
+				A530C8AB221432FA002492DC /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A530C8BA221432FB002492DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A530C8C3221432FB002492DC /* SocketDemoiOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A530C8C5221432FC002492DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A530C8CE221432FC002492DC /* SocketDemoiOSUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A530C8C0221432FB002492DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A530C8A5221432FA002492DC /* SocketDemoiOS */;
+			targetProxy = A530C8BF221432FB002492DC /* PBXContainerItemProxy */;
+		};
+		A530C8CB221432FC002492DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A530C8A5221432FA002492DC /* SocketDemoiOS */;
+			targetProxy = A530C8CA221432FC002492DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A530C8AF221432FA002492DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A530C8B0221432FA002492DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A530C8B4221432FB002492DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A530C8B5221432FB002492DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A530C8D0221432FC002492DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A530C8D1221432FC002492DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A530C8D3221432FC002492DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SocketDemoiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shuqy.SocketDemoiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A530C8D4221432FC002492DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SocketDemoiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shuqy.SocketDemoiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A530C8D6221432FC002492DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SocketDemoiOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shuqy.SocketDemoiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SocketDemoiOS.app/SocketDemoiOS";
+			};
+			name = Debug;
+		};
+		A530C8D7221432FC002492DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SocketDemoiOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shuqy.SocketDemoiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SocketDemoiOS.app/SocketDemoiOS";
+			};
+			name = Release;
+		};
+		A530C8D9221432FC002492DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SocketDemoiOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shuqy.SocketDemoiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SocketDemoiOS;
+			};
+			name = Debug;
+		};
+		A530C8DA221432FC002492DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SocketDemoiOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shuqy.SocketDemoiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SocketDemoiOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A530C8A1221432FA002492DC /* Build configuration list for PBXProject "SocketDemoiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A530C8D0221432FC002492DC /* Debug */,
+				A530C8D1221432FC002492DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A530C8D2221432FC002492DC /* Build configuration list for PBXNativeTarget "SocketDemoiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A530C8D3221432FC002492DC /* Debug */,
+				A530C8D4221432FC002492DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A530C8D5221432FC002492DC /* Build configuration list for PBXNativeTarget "SocketDemoiOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A530C8D6221432FC002492DC /* Debug */,
+				A530C8D7221432FC002492DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A530C8D8221432FC002492DC /* Build configuration list for PBXNativeTarget "SocketDemoiOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A530C8D9221432FC002492DC /* Debug */,
+				A530C8DA221432FC002492DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A530C89E221432FA002492DC /* Project object */;
+}

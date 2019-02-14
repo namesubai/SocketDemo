@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A530C8E922143330002492DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A530C8E822143330002492DC /* AppDelegate.m */; };
+		A530C8EC22143330002492DC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A530C8EB22143330002492DC /* ViewController.m */; };
+		A530C8EE22143331002492DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A530C8ED22143331002492DC /* Assets.xcassets */; };
+		A530C8F122143331002492DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A530C8EF22143331002492DC /* Main.storyboard */; };
+		A530C8F422143331002492DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A530C8F322143331002492DC /* main.m */; };
+		A530C8FF22143331002492DC /* SocketDemoMacTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A530C8FE22143331002492DC /* SocketDemoMacTests.m */; };
+		A530C90A22143331002492DC /* SocketDemoMacUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A530C90922143331002492DC /* SocketDemoMacUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A530C8FB22143331002492DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A530C8DC22143330002492DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A530C8E322143330002492DC;
+			remoteInfo = SocketDemoMac;
+		};
+		A530C90622143331002492DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A530C8DC22143330002492DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A530C8E322143330002492DC;
+			remoteInfo = SocketDemoMac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A530C8E422143330002492DC /* SocketDemoMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocketDemoMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A530C8E722143330002492DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A530C8E822143330002492DC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A530C8EA22143330002492DC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A530C8EB22143330002492DC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A530C8ED22143331002492DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A530C8F022143331002492DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A530C8F222143331002492DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A530C8F322143331002492DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A530C8F522143331002492DC /* SocketDemoMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SocketDemoMac.entitlements; sourceTree = "<group>"; };
+		A530C8FA22143331002492DC /* SocketDemoMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocketDemoMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A530C8FE22143331002492DC /* SocketDemoMacTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocketDemoMacTests.m; sourceTree = "<group>"; };
+		A530C90022143331002492DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A530C90522143331002492DC /* SocketDemoMacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocketDemoMacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A530C90922143331002492DC /* SocketDemoMacUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocketDemoMacUITests.m; sourceTree = "<group>"; };
+		A530C90B22143331002492DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A530C8E122143330002492DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A530C8F722143331002492DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A530C90222143331002492DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A530C8DB22143330002492DC = {
+			isa = PBXGroup;
+			children = (
+				A530C8E622143330002492DC /* SocketDemoMac */,
+				A530C8FD22143331002492DC /* SocketDemoMacTests */,
+				A530C90822143331002492DC /* SocketDemoMacUITests */,
+				A530C8E522143330002492DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A530C8E522143330002492DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A530C8E422143330002492DC /* SocketDemoMac.app */,
+				A530C8FA22143331002492DC /* SocketDemoMacTests.xctest */,
+				A530C90522143331002492DC /* SocketDemoMacUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A530C8E622143330002492DC /* SocketDemoMac */ = {
+			isa = PBXGroup;
+			children = (
+				A530C8E722143330002492DC /* AppDelegate.h */,
+				A530C8E822143330002492DC /* AppDelegate.m */,
+				A530C8EA22143330002492DC /* ViewController.h */,
+				A530C8EB22143330002492DC /* ViewController.m */,
+				A530C8ED22143331002492DC /* Assets.xcassets */,
+				A530C8EF22143331002492DC /* Main.storyboard */,
+				A530C8F222143331002492DC /* Info.plist */,
+				A530C8F322143331002492DC /* main.m */,
+				A530C8F522143331002492DC /* SocketDemoMac.entitlements */,
+			);
+			path = SocketDemoMac;
+			sourceTree = "<group>";
+		};
+		A530C8FD22143331002492DC /* SocketDemoMacTests */ = {
+			isa = PBXGroup;
+			children = (
+				A530C8FE22143331002492DC /* SocketDemoMacTests.m */,
+				A530C90022143331002492DC /* Info.plist */,
+			);
+			path = SocketDemoMacTests;
+			sourceTree = "<group>";
+		};
+		A530C90822143331002492DC /* SocketDemoMacUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A530C90922143331002492DC /* SocketDemoMacUITests.m */,
+				A530C90B22143331002492DC /* Info.plist */,
+			);
+			path = SocketDemoMacUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A530C8E322143330002492DC /* SocketDemoMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A530C90E22143331002492DC /* Build configuration list for PBXNativeTarget "SocketDemoMac" */;
+			buildPhases = (
+				A530C8E022143330002492DC /* Sources */,
+				A530C8E122143330002492DC /* Frameworks */,
+				A530C8E222143330002492DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocketDemoMac;
+			productName = SocketDemoMac;
+			productReference = A530C8E422143330002492DC /* SocketDemoMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A530C8F922143331002492DC /* SocketDemoMacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A530C91122143331002492DC /* Build configuration list for PBXNativeTarget "SocketDemoMacTests" */;
+			buildPhases = (
+				A530C8F622143331002492DC /* Sources */,
+				A530C8F722143331002492DC /* Frameworks */,
+				A530C8F822143331002492DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A530C8FC22143331002492DC /* PBXTargetDependency */,
+			);
+			name = SocketDemoMacTests;
+			productName = SocketDemoMacTests;
+			productReference = A530C8FA22143331002492DC /* SocketDemoMacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A530C90422143331002492DC /* SocketDemoMacUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A530C91422143331002492DC /* Build configuration list for PBXNativeTarget "SocketDemoMacUITests" */;
+			buildPhases = (
+				A530C90122143331002492DC /* Sources */,
+				A530C90222143331002492DC /* Frameworks */,
+				A530C90322143331002492DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A530C90722143331002492DC /* PBXTargetDependency */,
+			);
+			name = SocketDemoMacUITests;
+			productName = SocketDemoMacUITests;
+			productReference = A530C90522143331002492DC /* SocketDemoMacUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A530C8DC22143330002492DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Shuqy;
+				TargetAttributes = {
+					A530C8E322143330002492DC = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+					A530C8F922143331002492DC = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = A530C8E322143330002492DC;
+					};
+					A530C90422143331002492DC = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = A530C8E322143330002492DC;
+					};
+				};
+			};
+			buildConfigurationList = A530C8DF22143330002492DC /* Build configuration list for PBXProject "SocketDemoMac" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A530C8DB22143330002492DC;
+			productRefGroup = A530C8E522143330002492DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A530C8E322143330002492DC /* SocketDemoMac */,
+				A530C8F922143331002492DC /* SocketDemoMacTests */,
+				A530C90422143331002492DC /* SocketDemoMacUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A530C8E222143330002492DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A530C8EE22143331002492DC /* Assets.xcassets in Resources */,
+				A530C8F122143331002492DC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A530C8F822143331002492DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A530C90322143331002492DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A530C8E022143330002492DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A530C8EC22143330002492DC /* ViewController.m in Sources */,
+				A530C8F422143331002492DC /* main.m in Sources */,
+				A530C8E922143330002492DC /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A530C8F622143331002492DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A530C8FF22143331002492DC /* SocketDemoMacTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A530C90122143331002492DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A530C90A22143331002492DC /* SocketDemoMacUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A530C8FC22143331002492DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A530C8E322143330002492DC /* SocketDemoMac */;
+			targetProxy = A530C8FB22143331002492DC /* PBXContainerItemProxy */;
+		};
+		A530C90722143331002492DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A530C8E322143330002492DC /* SocketDemoMac */;
+			targetProxy = A530C90622143331002492DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A530C8EF22143331002492DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A530C8F022143331002492DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A530C90C22143331002492DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A530C90D22143331002492DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A530C90F22143331002492DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SocketDemoMac/SocketDemoMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SocketDemoMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shuqy.SocketDemoMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A530C91022143331002492DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SocketDemoMac/SocketDemoMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SocketDemoMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shuqy.SocketDemoMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A530C91222143331002492DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SocketDemoMacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shuqy.SocketDemoMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SocketDemoMac.app/Contents/MacOS/SocketDemoMac";
+			};
+			name = Debug;
+		};
+		A530C91322143331002492DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SocketDemoMacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shuqy.SocketDemoMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SocketDemoMac.app/Contents/MacOS/SocketDemoMac";
+			};
+			name = Release;
+		};
+		A530C91522143331002492DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SocketDemoMacUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shuqy.SocketDemoMacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SocketDemoMac;
+			};
+			name = Debug;
+		};
+		A530C91622143331002492DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SocketDemoMacUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shuqy.SocketDemoMacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SocketDemoMac;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A530C8DF22143330002492DC /* Build configuration list for PBXProject "SocketDemoMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A530C90C22143331002492DC /* Debug */,
+				A530C90D22143331002492DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A530C90E22143331002492DC /* Build configuration list for PBXNativeTarget "SocketDemoMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A530C90F22143331002492DC /* Debug */,
+				A530C91022143331002492DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A530C91122143331002492DC /* Build configuration list for PBXNativeTarget "SocketDemoMacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A530C91222143331002492DC /* Debug */,
+				A530C91322143331002492DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A530C91422143331002492DC /* Build configuration list for PBXNativeTarget "SocketDemoMacUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A530C91522143331002492DC /* Debug */,
+				A530C91622143331002492DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A530C8DC22143330002492DC /* Project object */;
+}
