@@ -2,6 +2,18 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:AsyncSocketiOS/AsyncSocketiOS.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:AsyncSocketMac/AsyncSocketMac.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CFSocketMac/CFSocketMac.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CFSocketiOS/CFSocketiOS.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:SocketDemoMac/SocketDemoMac.xcodeproj">
    </FileRef>
    <FileRef

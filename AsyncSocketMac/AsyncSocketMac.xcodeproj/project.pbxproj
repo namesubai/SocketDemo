@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A530C99F2216E2C8002492DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A530C99E2216E2C8002492DC /* AppDelegate.m */; };
+		A530C9A22216E2C8002492DC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A530C9A12216E2C8002492DC /* ViewController.m */; };
+		A530C9A42216E2C9002492DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A530C9A32216E2C9002492DC /* Assets.xcassets */; };
+		A530C9A72216E2C9002492DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A530C9A52216E2C9002492DC /* Main.storyboard */; };
+		A530C9AA2216E2C9002492DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A530C9A92216E2C9002492DC /* main.m */; };
+		A530C9B52216E2C9002492DC /* AsyncSocketMacTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A530C9B42216E2C9002492DC /* AsyncSocketMacTests.m */; };
+		A530C9C02216E2C9002492DC /* AsyncSocketMacUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A530C9BF2216E2C9002492DC /* AsyncSocketMacUITests.m */; };
+		A530CAEF22171637002492DC /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = A530CAEB22171637002492DC /* GCDAsyncUdpSocket.m */; };
+		A530CAF022171637002492DC /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = A530CAEC22171637002492DC /* GCDAsyncSocket.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A530C9B12216E2C9002492DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A530C9922216E2C8002492DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A530C9992216E2C8002492DC;
+			remoteInfo = AsyncSocketMac;
+		};
+		A530C9BC2216E2C9002492DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A530C9922216E2C8002492DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A530C9992216E2C8002492DC;
+			remoteInfo = AsyncSocketMac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A530C99A2216E2C8002492DC /* AsyncSocketMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AsyncSocketMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A530C99D2216E2C8002492DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A530C99E2216E2C8002492DC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A530C9A02216E2C8002492DC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A530C9A12216E2C8002492DC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A530C9A32216E2C9002492DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A530C9A62216E2C9002492DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A530C9A82216E2C9002492DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A530C9A92216E2C9002492DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A530C9AB2216E2C9002492DC /* AsyncSocketMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AsyncSocketMac.entitlements; sourceTree = "<group>"; };
+		A530C9B02216E2C9002492DC /* AsyncSocketMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsyncSocketMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A530C9B42216E2C9002492DC /* AsyncSocketMacTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AsyncSocketMacTests.m; sourceTree = "<group>"; };
+		A530C9B62216E2C9002492DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A530C9BB2216E2C9002492DC /* AsyncSocketMacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsyncSocketMacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A530C9BF2216E2C9002492DC /* AsyncSocketMacUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AsyncSocketMacUITests.m; sourceTree = "<group>"; };
+		A530C9C12216E2C9002492DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A530CAEB22171637002492DC /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		A530CAEC22171637002492DC /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		A530CAED22171637002492DC /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		A530CAEE22171637002492DC /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A530C9972216E2C8002492DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A530C9AD2216E2C9002492DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A530C9B82216E2C9002492DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A530C9912216E2C8002492DC = {
+			isa = PBXGroup;
+			children = (
+				A530C99C2216E2C8002492DC /* AsyncSocketMac */,
+				A530C9B32216E2C9002492DC /* AsyncSocketMacTests */,
+				A530C9BE2216E2C9002492DC /* AsyncSocketMacUITests */,
+				A530C99B2216E2C8002492DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A530C99B2216E2C8002492DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A530C99A2216E2C8002492DC /* AsyncSocketMac.app */,
+				A530C9B02216E2C9002492DC /* AsyncSocketMacTests.xctest */,
+				A530C9BB2216E2C9002492DC /* AsyncSocketMacUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A530C99C2216E2C8002492DC /* AsyncSocketMac */ = {
+			isa = PBXGroup;
+			children = (
+				A530CAEA22171637002492DC /* ASyncSocket */,
+				A530C99D2216E2C8002492DC /* AppDelegate.h */,
+				A530C99E2216E2C8002492DC /* AppDelegate.m */,
+				A530C9A02216E2C8002492DC /* ViewController.h */,
+				A530C9A12216E2C8002492DC /* ViewController.m */,
+				A530C9A32216E2C9002492DC /* Assets.xcassets */,
+				A530C9A52216E2C9002492DC /* Main.storyboard */,
+				A530C9A82216E2C9002492DC /* Info.plist */,
+				A530C9A92216E2C9002492DC /* main.m */,
+				A530C9AB2216E2C9002492DC /* AsyncSocketMac.entitlements */,
+			);
+			path = AsyncSocketMac;
+			sourceTree = "<group>";
+		};
+		A530C9B32216E2C9002492DC /* AsyncSocketMacTests */ = {
+			isa = PBXGroup;
+			children = (
+				A530C9B42216E2C9002492DC /* AsyncSocketMacTests.m */,
+				A530C9B62216E2C9002492DC /* Info.plist */,
+			);
+			path = AsyncSocketMacTests;
+			sourceTree = "<group>";
+		};
+		A530C9BE2216E2C9002492DC /* AsyncSocketMacUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A530C9BF2216E2C9002492DC /* AsyncSocketMacUITests.m */,
+				A530C9C12216E2C9002492DC /* Info.plist */,
+			);
+			path = AsyncSocketMacUITests;
+			sourceTree = "<group>";
+		};
+		A530CAEA22171637002492DC /* ASyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				A530CAEB22171637002492DC /* GCDAsyncUdpSocket.m */,
+				A530CAEC22171637002492DC /* GCDAsyncSocket.m */,
+				A530CAED22171637002492DC /* GCDAsyncUdpSocket.h */,
+				A530CAEE22171637002492DC /* GCDAsyncSocket.h */,
+			);
+			path = ASyncSocket;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A530C9992216E2C8002492DC /* AsyncSocketMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A530C9C42216E2C9002492DC /* Build configuration list for PBXNativeTarget "AsyncSocketMac" */;
+			buildPhases = (
+				A530C9962216E2C8002492DC /* Sources */,
+				A530C9972216E2C8002492DC /* Frameworks */,
+				A530C9982216E2C8002492DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AsyncSocketMac;
+			productName = AsyncSocketMac;
+			productReference = A530C99A2216E2C8002492DC /* AsyncSocketMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A530C9AF2216E2C9002492DC /* AsyncSocketMacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A530C9C72216E2C9002492DC /* Build configuration list for PBXNativeTarget "AsyncSocketMacTests" */;
+			buildPhases = (
+				A530C9AC2216E2C9002492DC /* Sources */,
+				A530C9AD2216E2C9002492DC /* Frameworks */,
+				A530C9AE2216E2C9002492DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A530C9B22216E2C9002492DC /* PBXTargetDependency */,
+			);
+			name = AsyncSocketMacTests;
+			productName = AsyncSocketMacTests;
+			productReference = A530C9B02216E2C9002492DC /* AsyncSocketMacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A530C9BA2216E2C9002492DC /* AsyncSocketMacUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A530C9CA2216E2C9002492DC /* Build configuration list for PBXNativeTarget "AsyncSocketMacUITests" */;
+			buildPhases = (
+				A530C9B72216E2C9002492DC /* Sources */,
+				A530C9B82216E2C9002492DC /* Frameworks */,
+				A530C9B92216E2C9002492DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A530C9BD2216E2C9002492DC /* PBXTargetDependency */,
+			);
+			name = AsyncSocketMacUITests;
+			productName = AsyncSocketMacUITests;
+			productReference = A530C9BB2216E2C9002492DC /* AsyncSocketMacUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A530C9922216E2C8002492DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Shuqy;
+				TargetAttributes = {
+					A530C9992216E2C8002492DC = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+					A530C9AF2216E2C9002492DC = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = A530C9992216E2C8002492DC;
+					};
+					A530C9BA2216E2C9002492DC = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = A530C9992216E2C8002492DC;
+					};
+				};
+			};
+			buildConfigurationList = A530C9952216E2C8002492DC /* Build configuration list for PBXProject "AsyncSocketMac" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A530C9912216E2C8002492DC;
+			productRefGroup = A530C99B2216E2C8002492DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A530C9992216E2C8002492DC /* AsyncSocketMac */,
+				A530C9AF2216E2C9002492DC /* AsyncSocketMacTests */,
+				A530C9BA2216E2C9002492DC /* AsyncSocketMacUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A530C9982216E2C8002492DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A530C9A42216E2C9002492DC /* Assets.xcassets in Resources */,
+				A530C9A72216E2C9002492DC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A530C9AE2216E2C9002492DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A530C9B92216E2C9002492DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A530C9962216E2C8002492DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A530CAEF22171637002492DC /* GCDAsyncUdpSocket.m in Sources */,
+				A530CAF022171637002492DC /* GCDAsyncSocket.m in Sources */,
+				A530C9A22216E2C8002492DC /* ViewController.m in Sources */,
+				A530C9AA2216E2C9002492DC /* main.m in Sources */,
+				A530C99F2216E2C8002492DC /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A530C9AC2216E2C9002492DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A530C9B52216E2C9002492DC /* AsyncSocketMacTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A530C9B72216E2C9002492DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A530C9C02216E2C9002492DC /* AsyncSocketMacUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A530C9B22216E2C9002492DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A530C9992216E2C8002492DC /* AsyncSocketMac */;
+			targetProxy = A530C9B12216E2C9002492DC /* PBXContainerItemProxy */;
+		};
+		A530C9BD2216E2C9002492DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A530C9992216E2C8002492DC /* AsyncSocketMac */;
+			targetProxy = A530C9BC2216E2C9002492DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A530C9A52216E2C9002492DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A530C9A62216E2C9002492DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A530C9C22216E2C9002492DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A530C9C32216E2C9002492DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A530C9C52216E2C9002492DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AsyncSocketMac/AsyncSocketMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AsyncSocketMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shuqy.AsyncSocketMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A530C9C62216E2C9002492DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AsyncSocketMac/AsyncSocketMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AsyncSocketMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shuqy.AsyncSocketMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A530C9C82216E2C9002492DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AsyncSocketMacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shuqy.AsyncSocketMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AsyncSocketMac.app/Contents/MacOS/AsyncSocketMac";
+			};
+			name = Debug;
+		};
+		A530C9C92216E2C9002492DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AsyncSocketMacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shuqy.AsyncSocketMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AsyncSocketMac.app/Contents/MacOS/AsyncSocketMac";
+			};
+			name = Release;
+		};
+		A530C9CB2216E2C9002492DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AsyncSocketMacUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shuqy.AsyncSocketMacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AsyncSocketMac;
+			};
+			name = Debug;
+		};
+		A530C9CC2216E2C9002492DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AsyncSocketMacUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shuqy.AsyncSocketMacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AsyncSocketMac;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A530C9952216E2C8002492DC /* Build configuration list for PBXProject "AsyncSocketMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A530C9C22216E2C9002492DC /* Debug */,
+				A530C9C32216E2C9002492DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A530C9C42216E2C9002492DC /* Build configuration list for PBXNativeTarget "AsyncSocketMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A530C9C52216E2C9002492DC /* Debug */,
+				A530C9C62216E2C9002492DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A530C9C72216E2C9002492DC /* Build configuration list for PBXNativeTarget "AsyncSocketMacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A530C9C82216E2C9002492DC /* Debug */,
+				A530C9C92216E2C9002492DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A530C9CA2216E2C9002492DC /* Build configuration list for PBXNativeTarget "AsyncSocketMacUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A530C9CB2216E2C9002492DC /* Debug */,
+				A530C9CC2216E2C9002492DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A530C9922216E2C8002492DC /* Project object */;
+}

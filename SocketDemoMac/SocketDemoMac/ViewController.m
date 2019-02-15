@@ -36,6 +36,7 @@
     // Do any additional setup after loading the view.
 }
 
+
 #pragma mark - 创建Socket
 - (void)creatTCPSocket{
     
@@ -191,6 +192,7 @@
 
 
 #pragma mark - 发送
+
 - (IBAction)sendMsg:(id)sender {
     if (!self.textInput.stringValue.length) {
         return;
